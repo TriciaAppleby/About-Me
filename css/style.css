@@ -1,4 +1,15 @@
 h1{
     font-family: cursive;
     color: purple;
+    margin: 10px
+    
+    
+}
+
+html{
+    background-color: rgb(126, 118, 131)
+}
+
+p{
+    color: white;
 }
