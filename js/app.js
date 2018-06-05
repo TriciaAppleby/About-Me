@@ -1,12 +1,25 @@
 'use strict';
 
-var answer = prompt('Do you think yes or no?');
-var sanitizedAnswer = answer.toUpperCase().trim();
+var name = prompt ('What is your name?');
+console.log('name'+ name);
+alert ('Hello '+ name +'! Please answer yes or no,');
 
-else if (sanitizedAnswer === 'Y'
-    || sanitizedAnswer === 'YES') {
-    alert(answer + ' yes!');
+var question = prompt('ask a question here!');
+var sanitizedAnswer = question.toUpperCase().trim();
 
-else if (sanitizedAnswer === 'N'
-     || sanitizedAnswer === 'NO') {
-    alert(answer + ' means no!');
+if (sanitizedAnswer ==='Y' || sanitizedAnswer ==='YES') {
+    alert('No way!!');
+}
+else if (sanitizedAnswer === 'N' || sanitizedAnswer === 'NO') {
+    alert('Good job!');
+}
+
+var nextquestion = prompt('ask question here!');
+var sanitizedAnswer = nextquestion.toUpperCase().trim();
+
+if (sanitizedAnswer === 'Y'|| sanitizedAnswer === 'YES'){
+    alert ('yes!')
+}
+else if (sanitizedAnswer === 'N' || sanitizedAnswer === 'NO'){
+    alert ('no!')
+}
