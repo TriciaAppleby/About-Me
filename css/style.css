@@ -1,15 +1,16 @@
 h1{
     font-family: cursive;
     color: purple;
-    margin: 10px
-    
-    
+    text-align: center;
 }
+
 
 html{
     background-color: rgb(126, 118, 131)
 }
 
 p{
+   font-family: cursive;
     color: white;
+    text-align: center;
 }
